@@ -1,0 +1,42 @@
+{
+	"name": "cli-todo",
+	"description": "CLI to manage todos anywhere",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"cli-todo": "index.js",
+		"todo": "index.js"
+	},
+	"author": {
+		"name": "Steven Tripari",
+		"email": "07-bob.warble@icloud.com",
+		"url": "https://www.linkedin.com/in/stripari/"
+	},
+	"keywords": [
+		"cli-todo",
+		"Steve"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-should-cancel": "^1.0.3",
+		"cli-welcome": "^2.2.2",
+		"enquirer": "^2.3.6",
+		"lowdb": "^1.0.0",
+		"make-dir": "^3.1.0",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.1"
+	}
+}
